@@ -1,0 +1,90 @@
+/* documento css */
+
+body{
+	margin:0;
+	padding: 0;
+	border: 0;
+	front-family:sons-serilf;
+	background-color: #000000;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-image:url(case143.jpeg);
+	background-attachment: fixed;
+
+}
+#barrasuperior {
+	padding-left: 200px;
+	height: 50px;
+	padding-top: 8px;
+	background-color:#F2CCE4aa;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+#barrasuperior #redessociais {
+	width: 400px;
+	height: 40px;
+	margin-right: 200px;
+	display: flex;
+	
+}
+#barrasuperior #redessociais a img {
+	height: 100%;
+}
+header{
+	height: 100px;
+	padding-top: 25px;
+	color: darkred;
+	text-align: center;
+	background-repeat:no-repeat;
+}
+main{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	pading: 20 px;
+	flex-wrap: wrap;
+	align-content: center;
+
+}
+.box{height: 300px;
+	border-radius:50px;
+	padding:10px;
+	color: #f4efec;
+	text-aling:center;
+	margin: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:#F2CCE4aa;
+	color: #000;
+}
+.box:hover {
+	box-shadow: 6px 6px 10px #a4a4a4;
+	background-color:#D2E8E3;
+}
+.box h2{margin:0 50px 10px 0;
+	padding: 0;
+}
+box figure{width: 250px;
+	height: 100px;
+	background-color: #e6e6e6;
+	margin: 0;
+	padding: 0;
+	background-repeat:no-repeat;
+
+}
+.box p{
+	font-size: 20px;
+
+}
+footer {
+	background-color: #cf97a0;
+	height: 70px;
+	padding-top: 10px;
+	color: darkred;
+	text-align: center;
+}
+
